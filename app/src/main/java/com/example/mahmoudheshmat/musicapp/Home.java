@@ -54,7 +54,7 @@ public class Home extends AppCompatActivity {
     //Service get mediaSessionId
     playingsongService mService;
     Boolean isconnect;
-
+//sjiuygjhgnvhgvhgvhgv
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
