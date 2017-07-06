@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/music"
+        android:icon="@drawable/notify_icon"
+        android:title="@string/music"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/home_page"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/source"
+        android:icon="@drawable/source"
+        android:title="@string/source"
+        app:showAsAction="ifRoom" />
+
+</menu>

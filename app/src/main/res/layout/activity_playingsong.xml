@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_playingsong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahmoudheshmat.musicapp.playingsongActivity">
+
+    <ImageView
+        android:id="@+id/song_image"
+        android:src="@drawable/adele"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="00:30"
+            android:id="@+id/duration_progress"
+            android:textSize="@dimen/dim13"
+            android:textColor="@color/BLACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim5"
+            android:layout_marginLeft="@dimen/dim15"
+            android:layout_weight="3"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_duration"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="04:30"
+            android:id="@+id/duration"
+            android:textSize="@dimen/dim13"
+            android:textColor="@color/BLACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim5"
+            android:layout_marginRight="@dimen/dim5"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="Kol Haga Benya Tamer Hosner"
+        android:id="@+id/song_name"
+        android:textSize="@dimen/dim15"
+        android:layout_marginTop="@dimen/dim20"
+        android:gravity="center"
+        android:textColor="@color/BLACK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim15"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/previous"
+            android:src="@drawable/previous"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="60dp"/>
+
+        <ImageView
+            android:id="@+id/playPause"
+            android:src="@drawable/play_music"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/next"
+            android:src="@drawable/next"
+            android:layout_width="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_marginTop="@dimen/dim10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar_sound"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim10"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/repeat"
+            android:src="@drawable/repeat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="70dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textTimer"
+                android:text="00:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/RED"
+                android:textSize="@dimen/dim15"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/timer"
+                android:src="@drawable/timer"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/shuffle"
+            android:src="@drawable/shuffle"
+            android:layout_width="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

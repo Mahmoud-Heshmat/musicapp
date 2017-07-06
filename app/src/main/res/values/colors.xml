@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2D42</color>
+    <color name="colorPrimaryDark">#2B2D42</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="GUNMETAL">#2B2D42</color>
+    <color name="GRAYBLUE" >#8D99AE</color>
+    <color name="ANTIFLASHWHITE" >#EDF2F4</color>
+    <color name="RED" >#EF233C</color>
+    <color name="CANDY" >#D90429</color>
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#FFFFFFFF</color>
+
+</resources>

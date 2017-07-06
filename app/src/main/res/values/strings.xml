@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">music app</string>
+    <string name="home">Home</string>
+    <string name="songs">Songs</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="album_name">Album Name</string>
+    <string name="song_duration">4:30</string>
+    <string name="search_library">search_library</string>
+    <string name="search">Search...</string>
+
+    <string name="action_shuffle_all">Shuffle all</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="number_of_songs">Number of songs</string>
+    <string name="number_of_albums">Number of albums</string>
+    <string name="menu_sort_by_new_old">Newest to oldest</string>
+    <string name="menu_sort_by__old_new">Oldest to newest</string>
+    <string name="sort_order_entry_artist">Artist</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_year">Year</string>
+    <string name="sort_order_entry_duration">Duration</string>
+    <string name="sort_by">Sort by</string>
+
+    <string name="play">Play</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="go_to_album">Go to album</string>
+    <string name="go_to_artist">Go to artist</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="play_next">Play next</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="share">Share</string>
+    <string name="delete_from_device">Delete from device</string>
+    <string name="delete_from_favourite">Delete from Favourite</string>
+    <string name="add_to_favourite">Add to favourite</string>
+
+    <string name="theme">Theme</string>
+    <string name="playlist">Playlists</string>
+    <string name="favourite">Favourites</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="notes">Notes</string>
+    <string name="others">others</string>
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="logout">Log out</string>
+    <string name="support">Support Development</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="note_title">Note title</string>
+    <string name="note_date">Note Date</string>
+    <string name="note_content">Note Content</string>
+    <string name="add_note">Add note</string>
+    <string name="add_reminder">Add reminder</string>
+    <string name="delete_note">Delete</string>
+    <string name="search_by_content">Search by content</string>
+    <string name="add_playlist">Add playlist</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="playlists">Playlists</string>
+    <string name="create_new_playlist">Create new playlist</string>
+    <string name="user_name">User Name</string>
+    <string name="email">test@test.com</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="nameerror">Enter valid Name</string>
+    <string name="emailerror">Email test@test.com</string>
+    <string name="passwroderror">Password at least 8 char or number</string>
+    <string name="sign_in">Login</string>
+    <string name="cancel_timer">Cancel timer</string>
+    <string name="timer_message">Do you want to close timer</string>
+    <string name="cancel">Cancel</string>
+    <string name="source">Source</string>
+    <string name="music">Music</string>
+    <string name="etc">/etc</string>
+    <string name="note_detail">Note Detail</string>
+    <string name="title">Title</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="folder">Folders</string>
+
+</resources>

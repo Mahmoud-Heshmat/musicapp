@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:minHeight="350dp">
+
+    <TextView
+        android:id="@+id/new_playlist"
+        android:text="@string/create_new_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim20"
+        android:gravity="center"
+        android:padding="@dimen/dim10"
+        android:textColor="@color/RED"
+        android:textSize="@dimen/dim18" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_viewFragment"
+        android:layout_marginTop="@dimen/dim10"
+        android:background="@color/WHITE"/>
+
+</LinearLayout>
