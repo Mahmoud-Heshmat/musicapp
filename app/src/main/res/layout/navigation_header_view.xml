@@ -5,8 +5,9 @@
 
     <ImageView
         android:id="@+id/person"
-        android:src="@drawable/placeholder"
+        android:src="@drawable/music"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="200dp" />
+        android:layout_height="220dp" />
 
 </LinearLayout>

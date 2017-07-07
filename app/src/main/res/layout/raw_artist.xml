@@ -18,19 +18,19 @@
         <ImageView
             android:id="@+id/album_image"
             android:layout_width="match_parent"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
             android:layout_height="200dp"
-            android:background="@drawable/adele" />
+            android:background="@drawable/placeholder" />
 
         <TextView
             android:id="@+id/artist_name"
             android:text="@string/album_name"
             android:textSize="@dimen/dim15"
             android:layout_marginTop="@dimen/dim5"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:textColor="@color/GUNMETAL"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="26dp" />
 
     </LinearLayout>
 

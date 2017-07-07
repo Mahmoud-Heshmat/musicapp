@@ -3,32 +3,15 @@
 
     <group android:checkableBehavior="single">
 
-
         <item
-            android:id="@+id/about"
-            android:icon="@drawable/about"
-            android:title="@string/about"/>
-
-        <item
-            android:id="@+id/logout"
-            android:icon="@drawable/logout"
-            android:title="@string/logout"/>
-
-        <item
-            android:id="@+id/folder"
-            android:icon="@drawable/support"
-            android:title="@string/folder"/>
-
-        <item
-            android:id="@+id/setting"
-            android:icon="@drawable/settings"
-            android:title="@string/setting"/>
+            android:id="@+id/songs"
+            android:icon="@drawable/songs"
+            android:title="@string/songs" />
 
         <item
             android:id="@+id/equalizer"
-            android:icon="@drawable/songs"
+            android:icon="@drawable/equalizer"
             android:title="@string/equalizer" />
-
 
         <item
             android:id="@+id/playlist"
@@ -36,14 +19,19 @@
             android:title="@string/playlist" />
 
         <item
-            android:id="@+id/theme"
-            android:icon="@drawable/profile"
-            android:title="@string/theme" />
+            android:id="@+id/favourite"
+            android:icon="@drawable/favourite"
+            android:title="@string/favourite" />
 
         <item
             android:id="@+id/notes"
-            android:icon="@drawable/songs"
+            android:icon="@drawable/notes"
             android:title="@string/notes" />
+
+        <item
+            android:id="@+id/folder"
+            android:icon="@drawable/folders"
+            android:title="@string/folder"/>
 
     </group>
 
@@ -53,14 +41,19 @@
             <group android:checkableBehavior="none">
 
                 <item
-                    android:id="@+id/songs"
-                    android:icon="@drawable/songs"
-                    android:title="@string/songs" />
+                    android:id="@+id/theme"
+                    android:icon="@drawable/profile"
+                    android:title="@string/theme" />
 
                 <item
-                    android:id="@+id/favourite"
-                    android:icon="@drawable/favourite"
-                    android:title="@string/favourite" />
+                    android:id="@+id/setting"
+                    android:icon="@drawable/settings"
+                    android:title="@string/setting"/>
+
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/about"
+                    android:title="@string/about"/>
             </group>
         </menu>
     </item>

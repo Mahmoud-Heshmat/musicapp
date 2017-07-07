@@ -613,7 +613,7 @@ public class playingsongService extends Service implements MediaPlayer.OnComplet
 
         mBuilder = new NotificationCompat.Builder(this)
                 .setAutoCancel(false)
-                .setSmallIcon(R.drawable.notify_icon)
+                .setSmallIcon(R.drawable.placeholder)
                 .setCustomContentView(widget_customStandard)
                 .setCustomBigContentView(widget_customBig);
                 //.setOngoing(true);

@@ -282,9 +282,6 @@ public class songs extends AppCompatActivity implements View.OnClickListener{
 
                 break;
 
-            case R.id.logout:
-
-                break;
 
             case R.id.folder:
                 fileManagerFragment files = new fileManagerFragment();
